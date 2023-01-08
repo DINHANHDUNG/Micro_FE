@@ -3,7 +3,7 @@ import React from 'react';
 function ContactUs(props) {
     return (
         <div>
-            ContactUs
+            <iframe src="https://geers.tv/" width="100%" height="800"></iframe>
         </div>
     );
 }

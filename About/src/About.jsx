@@ -3,7 +3,7 @@ import React from 'react';
 function About(props) {
     return (
         <div>
-            About
+           <h5>DŨNG THỢ CODE</h5>
         </div>
     );
 }
