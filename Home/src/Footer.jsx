@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
   return (
     <div
-      class="footer"
+      className="footer"
       style={{
         position: "fixed",
         left: 0,

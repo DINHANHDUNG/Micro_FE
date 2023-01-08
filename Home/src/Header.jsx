@@ -1,17 +1,22 @@
 import React from "react";
 
 function Header(props) {
+  const clickHeader = (value) =>{
+    console.log("asdasdasd",value);
+    console.log('props', props);
+    props?.CallBack(value)
+  }
   return (
-    <div class="header">
-      <a href="default" class="logo">
+    <div className="header">
+      <a className="logo" onClick={()=>clickHeader('')}>
         HOMEPAGE
       </a>
-      <div class="header-right">
-        <a class="active" href="">
+      <div className="header-right">
+        <a className="active" onClick={()=>clickHeader('')}>
           Home
         </a>
-        <a href="contact">Contact</a>
-        <a href="about">About</a>
+        <a onClick={()=>clickHeader('contact')}>Contact</a>
+        <a onClick={()=>clickHeader('about')}>About</a>
       </div>
     </div>
   );
