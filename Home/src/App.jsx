@@ -8,9 +8,9 @@ import "../../Css/cssG.css";
 
 const App = () => (
   <div className="container">
-    <Header />
-    <div>Content Home</div>
-    <Footer />
+    {/* <Header /> */}
+    <div>Home</div>
+    {/* <Footer /> */}
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
