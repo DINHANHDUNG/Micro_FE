@@ -1,0 +1,20 @@
+{
+  "name": "Micro_FE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DINHANHDUNG/Micro_FE.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "Home",
+    "Contact",
+    "About",
+    "Container"
+  ],
+  "scripts": {
+    "start": "concurrently \"cd Home && yarn start\" \"cd Contact && yarn start\" \"cd About && yarn start\"  \"cd Container && yarn start\" "
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
