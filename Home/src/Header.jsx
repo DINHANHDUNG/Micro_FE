@@ -33,6 +33,7 @@ function Header(props) {
         </a>
         <a onClick={()=>clickHeader('contact')}>Contact</a>
         <a onClick={()=>clickHeader('about')}>About</a>
+        <a onClick={()=>clickHeader('test')}>Test</a>
       </div>}
     </Header>
   );

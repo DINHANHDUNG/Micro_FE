@@ -70,6 +70,7 @@ module.exports = {
         HomePage: 'HomePage@http://localhost:3001/remoteEntry.js',
         Contact: 'Contact@http://localhost:3002/remoteEntry.js',
         About: 'About@http://localhost:3003/remoteEntry.js',
+        Test: 'Test@http://localhost:3004/remoteEntry.js',
       },
       exposes: {},
       shared: {
